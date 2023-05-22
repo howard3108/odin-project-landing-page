@@ -126,3 +126,54 @@ h1 {
     padding-right: 30px;
     font-weight: 700;
 }
+
+.sign-up {
+    padding: 75px 200px;
+}
+
+.sign-up-container {
+    background-color: #3882F6;
+    border-radius: 10px;
+    padding: 40px 75px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.sign-up-left>h3,
+.sign-up-left>p {
+    margin: 0;
+    color: #E5E7EB;
+}
+
+.sign-up-right {
+    align-self: center;
+}
+
+.sign-up-right>button {
+    background-color: #3882F6;
+    border: 1px solid #E5E7EB;
+    padding: 8px 30px;
+    border-radius: 10px;
+    color: #E5E7EB;
+    font-weight: 700;
+    font-size: 14px;
+}
+
+footer {
+    background-color: #1F2937;
+    text-align: center;
+    margin: 0;
+    padding: 20px;
+}
+
+footer>p {
+    color: #E5E7EB;
+}
+
+button:hover {
+    background-color: blue;
+}
+
+button:active {
+    border: 1px solid black;
+}
